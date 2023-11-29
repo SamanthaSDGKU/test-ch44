@@ -1,0 +1,36 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+/*utilites*/
+.container{
+   width:80%; 
+   margin-left:auto;
+   margin-right: auto;
+}
+.read-more-btn{
+    display: inline-block;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+/*header*/
+.site-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    color:white;
+    text-align: center;
+}
